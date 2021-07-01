@@ -12,7 +12,7 @@ const AddEvents = () => {
             imageURL: imageURL,
         }
         console.log(eventData)
-        const url = `http://localhost:5000/addEvent`
+        const url = `https://hydro-hockey-22626.herokuapp.com/addEvent`
         fetch(url, {
             method: 'POST',
             headers: {

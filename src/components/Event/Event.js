@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 
 const Event = ({event}) => {
+    
     const deleteEvent = id => {
         
     }
